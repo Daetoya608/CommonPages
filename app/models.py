@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Text
 from sqlalchemy.exc import IntegrityError
 from sqlalchemy.future import select
-from database import Base, new_session
+from .database import Base, new_session
 
 
 class Post(Base):

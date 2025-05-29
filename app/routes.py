@@ -1,7 +1,7 @@
 from fastapi import APIRouter, HTTPException
-from models import Post, add_post, find_post
+from .models import Post, add_post, find_post
 from fastapi.responses import JSONResponse
-from schemas import PostDefaultCreate
+from .schemas import PostDefaultCreate
 
 router = APIRouter()
 
